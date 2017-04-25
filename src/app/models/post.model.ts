@@ -1,5 +1,8 @@
 import {IComment} from './comment.model'
 import {IUser} from './user.model'
+import {IBlog} from './blog.model'
+import {ICategory} from './category.model'
+import {IKeyword} from './keyword.model'
 
 
 export interface IPost {
@@ -8,8 +11,9 @@ export interface IPost {
     content: string,
     posted_date: Date,
     update_date: Date,
-    blog: IUser,
+    blog: IBlog,
     category: ICategory,
-    keywords: ITag,
+    keywords: IKeyword[],
     images: number;
 }
+
