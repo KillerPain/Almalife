@@ -1,3 +1,19 @@
 md-grid-tile {
     margin: 50px;
 }
+
+md-list-item {
+    height: 100px;
+}
+
+:host {
+    display: flex;
+    flex: 1 0 auto;
+    .posts {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 100%;
+        padding: 10px;
+    }
+}
