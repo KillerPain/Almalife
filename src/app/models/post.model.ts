@@ -1,3 +1,4 @@
+
 import {IComment} from './comment.model'
 import {IUser} from './user.model'
 import {IBlog} from './blog.model'
@@ -16,4 +17,3 @@ export interface IPost {
     keywords: IKeyword[],
     images: number;
 }
-
