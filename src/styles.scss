@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body{
+	width: 100%;
+	height: 100vh;
+	// background-image:url(http://7news.kz/sites/default/files/1431060560ohlvy.jpg);
+	background-position: center center;
+	background-size: cover;
+	h1{
+		font-weight: 700;
+		font-size: 4vw;
+		color: #fff;
+		text-transform: uppercase;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		span{
+			font-weight: 300;
+			p{
+				font-size: 12px;
+				text-transform: capitalize;
+			}
+		}
+	}
+}
